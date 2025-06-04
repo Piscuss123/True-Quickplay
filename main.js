@@ -66,5 +66,5 @@ app.get('/api/servers', async (req, res) => {
         limit: 100
       }
     });
-
+  }
 //end of current edit
