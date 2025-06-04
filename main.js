@@ -231,4 +231,3 @@ app.get('/api/servers', async (req, res) => {
     res.status(500).json({ message: 'Error fetching servers', error: error.message });
   }
 });
-//end of current edit
