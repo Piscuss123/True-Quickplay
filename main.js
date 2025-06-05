@@ -1,13 +1,13 @@
-const express = require('express');
-const cors = require('cors');
-const dotenv = require('dotenv');
-const axios = require('axios');
+const express = import('express');
+const cors = import('cors');
+const dotenv = import('dotenv');
+const axios = import('axios');
 // Add this near the top of your file
-const path = require('path');
-const { queryGameServerInfo } = require('steam-server-query');
-const net = require('net');
-const { promisify } = require('util');
-const ping = require('ping');
+const path = import('path');
+const { queryGameServerInfo } = import('steam-server-query');
+const net = import('net');
+const { promisify } = import('util');
+const ping = import('ping');
 	
 dotenv.config();
 	
